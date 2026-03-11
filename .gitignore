@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Google OAuth tokens (NEVER commit)
+token.json
+credentials.json
+service_account.json
+*.json.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# State
+processed_emails.json
